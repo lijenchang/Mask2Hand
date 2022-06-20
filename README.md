@@ -1,8 +1,8 @@
 # Mask2Hand
 
-PyTorch implementation of "Mask2Hand: Learning to Predict the 3D Hand Pose and Shape from Shadow",
-Li-Jen Chang, Yu-Cheng Liao, Chia-Hui Lin, and Hwann-Tzong Chen
-*arXiv preprint arXiv:2205.15553*
+PyTorch implementation of "Mask2Hand: Learning to Predict the 3D Hand Pose and Shape from Shadow", \
+Li-Jen Chang, Yu-Cheng Liao, Chia-Hui Lin, and Hwann-Tzong Chen \
+*arXiv preprint arXiv:2205.15553* \
 [**[Paper]**](https://arxiv.org/abs/2205.15553)
 
 ## Environment Setup
