@@ -1,9 +1,9 @@
 # Mask2Hand
 
 PyTorch implementation of "Mask2Hand: Learning to Predict the 3D Hand Pose and Shape from Shadow", \
-Li-Jen Chang, Yu-Cheng Liao, Chia-Hui Lin, and Hwann-Tzong Chen \
-*arXiv preprint arXiv:2205.15553* \
-[**[Paper]**](https://arxiv.org/abs/2205.15553)
+Li-Jen Chang, Yu-Cheng Liao, Chia-Hui Lin, Shih-Fang Yang-Mao, and Hwann-Tzong Chen \
+*APSIPA ASC 2023* \
+[**[arXiv]**](https://arxiv.org/abs/2205.15553) [**[Paper]**](https://htchen.github.io/APSIPA_2023_Mask2Hand.pdf)
 
 ## Environment Setup
 + Create the environment from the provided `environment.yml` file.
@@ -25,6 +25,7 @@ Li-Jen Chang, Yu-Cheng Liao, Chia-Hui Lin, and Hwann-Tzong Chen \
   unzip -q ./FreiHAND_pub_v2.zip -d ./freihand
   cd ..
   ```
++ Download the file of dataset splits from [this link](https://www.dropbox.com/scl/fi/u9oct803g06v40uxb6ote/FreiHand_split_ids.json?rlkey=ac86o9975s1r9vpb0txk3d1yx&st=o4vzgluc&dl=1) and put it into `dataset/freihand/`.
 
 ## Run a Demo
 + If you want to use GPU, run
