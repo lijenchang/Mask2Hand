@@ -203,7 +203,7 @@ def test():
 
     # Demo
     for checkpoint_dir in directories:
-        checkpoint = torch.load(os.path.join(PATH, checkpoint_dir, 'model_best.pth'), map_location = device)
+        checkpoint = torch.load(os.path.join(PATH, checkpoint_dir, 'model_pretrained.pth'), map_location = device)
         model.load_state_dict(checkpoint['model_state_dict'])
         check_epoch = checkpoint['epoch']
 
